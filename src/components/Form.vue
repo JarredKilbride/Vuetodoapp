@@ -1,7 +1,7 @@
 <template>
 <form @submit.prevent="handleSubmit">
     <h4 v-if="error">Feilds cann't be blank</h4>
-    <label>Do date</label>
+    <label>Due date</label>
     <input type="date" v-model="date">
     <label>What is the to do?</label>
     <input type="text" v-model="text">
